@@ -1,0 +1,99 @@
+<html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>CRIART PERSONALIZADOS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #fff8f0;
+        }
+
+        header {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 18px;
+            font-style: italic;
+        }
+
+        nav {
+            background-color: #ffb6c1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        main p {
+            font-size: 18px;
+        }
+
+        ul {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>CRIART PERSONALIZADOS</h1>
+    <p>A magia da sua festa começa aqui</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Contatos</a>
+</nav>
+
+<main>
+    <p>Aqui você encontra tudo para sua festa personalizada!</p>
+
+    <ul>
+        <li>Caixa personalizada</li>
+        <li>Centro de mesa</li>
+        <li>Lembrancinha personalizada</li>
+    </ul>
+</main>
+
+<footer>
+    <p>Site desenvolvido por Camila Júlia</p>
+</footer>
+
+</body>
+</html>
