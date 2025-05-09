@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog da Camila</title>
+    <style>
+        body {
+            background: linear-gradient(rgb(236, 236, 180));
+        }
+
+
+        .categoria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            flex-direction: row;
+            margin-bottom: 20px;
+            margin-top: 10px;
+
+        }
+
+        .prato {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            max-width: 200px;
+        }
+
+
+        .prato img {
+            width: 200px;
+            height: 200px;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 10px;
+        }
+        thead{
+            background-color: #e1e1e1;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer{
+            padding: 20px;
+            text-align: center;
+            background-color: gray;
+            color: #fff;
+            width: 100%;
+        }
+
+        footer ul{
+            display: block;
+            list-style-type: none;
+            margin: 0;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+        footer ul li{
+            display: inline;
+            margin-right: 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1> <b style="color: blueviolet;">Na cozinha com Camila</b></h1>
+    <p>
+    <pre>
+        Vamos juntos testar várias Receitas,
+        Bora?
+    </pre>
+    <h2><b style="color: rgb(158, 143, 231);">Categoria de Receitas</b></h2>
+    </p>
+    <ul>
+        <li><a>Doces</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./casadinho.jpg" alt="casadinho">
+                    <p>Casadinho </p>
+                </div>
+                <div class="prato">
+                    <img src="./doces fino.jfif" alt="Doces Finos">
+                    <p>Gourmet </p>
+                </div>
+            </div>
+        </li>  
+        <li><a>Salgados</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./coxinha.jfif" alt="coxinha">
+                    <p> Coxinha</p>
+                </div>
+                <div class="prato">
+                    <img src="./joelho.jpg" alt="joelho">
+                    <p>Joelho </p>
+                </div>
+            </div>
+        </li>
+        <li><a> Pratos tipos Brasileiros</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./feijoada.jfif" alt="">
+                    <p> </p>
+                </div>
+                <div class="prato">
+                    <img src="./tropeiro mineiro.jfif" alt="tropeiro">
+                    <p> Tropeiro Mineiro</p>
+                </div>
+            </div>
+        </li>
+        <li><a>Pratos tipicos internacionais</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./hambúrguer.jfif" alt="Americano">
+                    <p>Hambúrguer </p>
+                </div>
+                <div class="prato">
+                    <img src="./Confit de Canard.jpg" alt="Frances">
+                    <p>Confit de Canard </p>
+                </div>
+            </div>
+        </li>
+        <li><a>Pratos Especiais</a>
+            <div class="categoria">
+                <div class="prato">
+                    <img src="./escondidinho.webp" alt="lasanha">
+                    <p> Lasanha</p>
+                </div>
+                <div class="prato">
+                    <img src="./rondelli.jpg" alt="rondelli">
+                    <p>Rondelli</p>
+                </div>
+            </div>
+        </li>      
+    </ul>
+
+
+    <h2> Tabela de receitas</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Receita</th>
+                <th>Dificuldade</th>
+                <th>Tempo de preparo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Casadinho</td>
+                <td>Fácil</td>
+                <td> 1 Hora</td>
+            </tr>
+            <tr>
+                <td>Coxinha</td>
+                <td>Médio</td>
+                <td>2 horas</td>
+            </tr>
+            <tr>
+                <td>Feijoada</td>
+                <td>Difícil</td>
+                <td>4 horas</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <footer>
+        Referências culinárias
+        <ul>
+            <li><a href="http://127.0.0.1:5500/Atividade%206/atividade6.html">meu blog</a>
+
+</body>
+
+</html>
